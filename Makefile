@@ -7,4 +7,5 @@ setup_environment:
 	sudo dpkg -i Tachidesk-Server-v0.7.0-r1197-debian-all.deb
 
 start_tachidesk:
-	sudo tachidesk-server-browser
+	sudo apt install -y net-tools
+	sudo ifconfig
