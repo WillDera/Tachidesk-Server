@@ -1,2 +1,2 @@
 setup_environment:
-	java
+	sudo java
